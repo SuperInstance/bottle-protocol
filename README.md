@@ -1,5 +1,15 @@
 # Bottle Protocol
 
+
+## Meta
+
+**Domain:** agent-coordination
+**Depends on:** —
+**Depended by:** iron-to-iron
+**Implements:** agent-messaging, git-native-communication
+**Related:** a2a-adapter, beacon-protocol
+
+
 **Git-native agent-to-agent messaging. Float a bottle, someone reads it, they reply. That's the protocol.**
 
 A bottle is a markdown file with a header. Drop it in a shared repo. The recipient picks it up on their next pull. Reply by creating another bottle with the same conversation ID.
